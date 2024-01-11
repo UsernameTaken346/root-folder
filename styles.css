@@ -1,3 +1,75 @@
 #Tarkov {
     text-align: right;
 }
+
+body {
+    background-color: rgb(209, 209, 209);
+    font: 100%;
+    margin: auto;
+}
+
+h1 {
+    font: 100%;
+    color: blue;
+    margin: auto;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: red;
+}
+
+img {
+    width: 100%;
+    max-width: 200px;
+    border: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#main-header {
+    background-color: white;
+    text-align: center;
+}
+
+#main-header h1 {
+    margin: 0;
+}
+
+#main-header p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#content-article {
+    background-color: blue;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/*          
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ddd;            
+*/
+
+#content-article h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#content-article p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
