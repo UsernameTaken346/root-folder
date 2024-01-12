@@ -1,0 +1,52 @@
+#main-header {
+    background-color: purple;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*  
+
+#something = ID 
+.something = class 
+
+*/
+
+.top-menu {
+
+}
+
+#main-nav {
+    display: flex;
+}
+
+.nav-link {
+    display: flex;
+}
+
+.flex-article {
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    margin-left: 7%;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: tomato;
+}
+
+.sidebar-link {
+    display: flex;
+    background-color: purple;
+}
+
+#main-footer {
+    display: flex;
+    margin-bottom: auto;
+    background-color: green;
+}
+#main-footer p {
+    align-items: center;
+}
