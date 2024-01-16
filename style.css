@@ -1,3 +1,14 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 header {
     background-color: purple;
     display: flex;
@@ -36,24 +47,22 @@ nav a {
     padding: 10px;
 }
 
-section {
+.main-content {
     display: flex;
-    
+    background-color: aqua;
+}
+
+.main-content .flex-article {
+    display: flex;
     text-align: center;
     flex-direction: column;
 }
 
-article {
-    margin-left: 7%;
-    background-color: aqua;
-}
-
-aside {
-    display: flex;
+.main-content aside {
     flex-direction: column;
     justify-content: space-around;
     background-color: tomato;
-    margin-right: 93%;
+
 }
 
 aside a {
@@ -67,6 +76,7 @@ footer {
     background-color: green;
     text-align: center;
 }
+
 footer p {
 
 }
