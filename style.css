@@ -1,7 +1,8 @@
-#main-header {
+header {
     background-color: purple;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /*  
@@ -11,42 +12,61 @@
 
 */
 
-.top-menu {
-
+nav {
+    background-color: purple 
 }
 
-#main-nav {
+header h1 {
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
     display: flex;
 }
 
-.nav-link {
-    display: flex;
+nav li {
+    flex: 1 1 0;
 }
 
-.flex-article {
+nav a {
+    text-decoration: none;
+    color: #fff;
     display: flex;
-    background-color: aqua;
-    justify-content: center;
+    padding: 10px;
+}
+
+section {
+    display: flex;
+    
+    text-align: center;
+    flex-direction: column;
+}
+
+article {
     margin-left: 7%;
+    background-color: aqua;
 }
 
-#sidebar {
+aside {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     background-color: tomato;
+    margin-right: 93%;
 }
 
-.sidebar-link {
+aside a {
     display: flex;
-    background-color: purple;
+    text-decoration: none;
+    list-style-type: none;
 }
 
-#main-footer {
+footer {
     display: flex;
-    margin-bottom: auto;
     background-color: green;
+    text-align: center;
 }
-#main-footer p {
-    align-items: center;
+footer p {
+
 }
