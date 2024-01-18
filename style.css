@@ -3,16 +3,15 @@ html, body {
     height: 100%;
 }
 
-body {
-
-}
-
 .my-container {
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
+.main-header h1 {
+    font-size: 28px;
+}
 
 header {
     background-color: purple;
