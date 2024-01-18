@@ -3,11 +3,16 @@ html, body {
     height: 100%;
 }
 
-.container {
+body {
+
+}
+
+.my-container {
     display: flex;
     flex-direction: column;
     height: 100%;
 }
+
 
 header {
     background-color: purple;
@@ -16,12 +21,10 @@ header {
     align-items: center;
 }
 
-/*  
-
-#something = ID 
-.something = class 
-
-*/
+.main-nav {
+    flex-wrap: nowrap;
+    /* border: solid; */
+}
 
 nav {
     background-color: purple 
@@ -47,25 +50,50 @@ nav a {
     padding: 10px;
 }
 
+/*  
+
+ID = #something
+class = .something
+
+hirveästi spagettikoodia ja tuhlattuja tunteja
+monta eri pätkää koodista laitettu ihan vain että itse ymmärtäisi missä mikäkin on kun
+ei näe kun pitää hiirtä jonkin div tai muun class:in päällä että minkä kokoinen se on
+*/
+
+
 .main-content {
     display: flex;
     background-color: aqua;
+    flex: 1;
 }
 
-.main-content .flex-article {
+.main-content .sidebar {
+    min-width: 20vh;
+    flex-direction: column;
+    background-color: tomato;
+}
+
+.main-content .sidebar a:link {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.main-content .flex-articles {
     display: flex;
     text-align: center;
     flex-direction: column;
+    /* border: solid; */
+    flex-grow: inherit;
+    /* background-color: aquamarine; */
 }
 
-.main-content aside {
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: tomato;
-
+.flex-articles p {
+   /* border: solid; */
+    font-size: 17px;
+    font-family: sans-serif;
 }
 
-aside a {
+aside ul li {
     display: flex;
     text-decoration: none;
     list-style-type: none;
@@ -73,10 +101,12 @@ aside a {
 
 footer {
     display: flex;
-    background-color: green;
+    background-color: purple;
+    text-align: center;
+    justify-content: center;
+}
+
+footer p a {
     text-align: center;
 }
 
-footer p {
-
-}
