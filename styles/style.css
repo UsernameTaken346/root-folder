@@ -9,6 +9,11 @@ html, body {
     height: 100%;
 }
 
+.main-header li ul {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
 .main-header h1 {
     font-size: 28px;
 }
@@ -21,8 +26,10 @@ header {
 }
 
 .main-nav {
+    display: flex;
     flex-wrap: nowrap;
     /* border: solid; */
+    flex-direction: row;
 }
 
 nav {
@@ -84,6 +91,7 @@ ei näe kun pitää hiirtä jonkin div tai muun class:in päällä että minkä 
     /* border: solid; */
     flex-grow: inherit;
     /* background-color: aquamarine; */
+    /* justify-content: center; */
 }
 
 .flex-articles p {
@@ -91,6 +99,11 @@ ei näe kun pitää hiirtä jonkin div tai muun class:in päällä että minkä 
     font-size: 17px;
     font-family: sans-serif;
 }
+
+/* .flex-articles table {
+    max-width: 50vh;
+    justify-content: center;
+} */
 
 aside ul li {
     display: flex;
